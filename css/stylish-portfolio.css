@@ -19,7 +19,7 @@ body {
 }
 
 .content-section {
-  padding-top: 7.5rem;
+  padding-top: 5px;
   padding-bottom: 7.5rem;
 }
 
@@ -40,6 +40,8 @@ h5,
 h6 {
   font-weight: 700;
 }
+
+
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
@@ -91,7 +93,7 @@ h6 {
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
+  padding-top: 6.5rem;
   padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-main.jpg");
   background-position: center center;
@@ -113,6 +115,9 @@ h6 {
     font-size: 5.5rem;
   }
 }
+
+.masthead h4 img {width: 35%}
+
 
 /* Side Menu */
 #sidebar-wrapper {
@@ -196,6 +201,7 @@ h6 {
   color: #fff;
 }
 
+
 .menu-toggle:hover {
   background: #343a40;
 }
@@ -213,7 +219,8 @@ h6 {
 
 .callout {
   padding: 15rem 0;
-  /*background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");*/
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), 
+  url("../img/bg_callout2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -226,24 +233,27 @@ h6 {
   max-width: 30rem;
 }
 
+#portfolio {background-image:url(../img/header_bg4.png);
+            background-repeat:no-repeat;
+            background-position:center;
+            margin:0 auto;}
 
 .portfolio-item {
   display: block;
   position: relative;
   overflow: hidden;
-  max-width: 530px;
-  margin: auto auto 1rem;
+  padding:20px;
 }
 
 .portfolio-item img {height:350px;}
 
 .portfolio-item .caption {
   display: flex;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  height: 350px;
+  width: 485px;
+  /*background-color: rgba(33, 37, 41, 0.4);*/
   position: absolute;
-  top: 0;
+  top: 20px;
   bottom: 0;
   z-index: 1;
 }
@@ -254,7 +264,7 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 
